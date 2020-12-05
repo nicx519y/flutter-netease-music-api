@@ -256,6 +256,7 @@ Options joinOptions(
     });
 
 Uri joinUri(String path) {
+  debugPrint('host: $HOST');
   return Uri.parse('$HOST$path');
 }
 
