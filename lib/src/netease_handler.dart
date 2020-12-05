@@ -199,7 +199,7 @@ void _handleEApi(RequestOptions option, List<Cookie> cookies) {
 }
 
 const String TAG = 'NeteaseMusicApi';
-const String HOST = 'https://49.232.144.53:3000';
+const String HOST = 'http://49.232.144.53:3000';
 const HOSTS = [
   '49.232.144.53:3000',
   'music.163.com',
